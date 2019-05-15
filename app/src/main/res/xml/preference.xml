@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <TextViewPreference
+        android:defaultValue="true"
+        android:key="display_text"
+        android:summaryOff="Invisible"
+        android:summaryOn="Visible"
+        android:title="hello"/>
+
+    <EditTextPreference
+        android:key="password"
+        android:summary="Enter your password"
+        android:title="Password" />
+
+
+
+
+
+
+
+    <TextViewPreference
+        android:defaultValue="true"
+        android:key="display_text"
+        android:summaryOff="Invisible"
+        android:summaryOn="Visible"
+        android:title="Language"/>
+
+
+
+
+
+    <TextViewPreference
+        android:defaultValue="true"
+        android:key="display_text"
+        android:summaryOff="Invisible"
+        android:summaryOn="Visible"
+        android:title="Language"/>
+
+
+</PreferenceScreen>
